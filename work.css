@@ -1,0 +1,142 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    
+}
+.header{
+    height: 50px;
+    /* background-color: grey; */
+    display: flex;
+    display: row wrap;
+    align-items: center;
+    
+}
+.navbar{
+    font-size: 25px;
+    margin-left: 30px; 
+}
+.navbar ul li{
+    display: inline;
+    padding: 20px;
+    margin: 0 10px;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+     color: #aaaaac;
+     
+}
+.hambar{
+   display: none; 
+}
+
+@media only screen and (max-width: 768px){
+    /* .header{       
+        background-color: grey;        
+    }    */
+    .navbar{
+            display: none;
+        }
+        .hambar{
+            position: relative;
+            display: inline-block; 
+        }
+        .hambar i{
+            
+            color:white;  
+        }
+        .hambarCont{
+            display: none;
+            position: absolute;
+            background-color: #ddd9d9;
+            min-width: 160px;
+            height: auto;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            margin-left: 10px;
+            
+        }
+        .dropbtn {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            margin-left:10px;
+            padding: 5px;
+        }
+        .hambarCont a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .hambarCont a:hover {
+            color: rgb(255,255,255);
+            background-color: rgb(79, 79, 80);
+        }
+        
+        .show {
+            display:block;
+        }
+        .hambarCont li{
+            list-style-type: none;
+        }
+        .hambarCont ul{
+            padding: 0px;
+        }
+        .flex-col {
+            margin: 1.6%;
+            height: 400px;
+            width: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: white;
+            box-sizing:border-box;
+            border:2px solid white;
+        }  
+    
+    }
+/* =========================================================== TOPMENU AND HAMBURGER =================================================================== */
+h2{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+}
+
+.flex-row {
+    display: flex;
+    /* flex: 1; */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;    
+}    
+.flex-col {
+    margin: 1.6%;
+    height: 400px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    box-sizing:border-box;
+    border:2px solid white;
+}  
+.flex-col img{
+    height: 396px;
+    width:396px;
+    
+}
+
+.flex-col:hover{
+    transform: scale(1.1);
+}
