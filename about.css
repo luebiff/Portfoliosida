@@ -118,25 +118,27 @@ h2{
     margin-bottom: 5px;
 }
 .stapel span {
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .in1{
     width: 70%;
     background-color: rgb(255, 255, 255);
     height: 100%;
     border-radius: 25px;
-    color: red;
+    color: black;
      
 }
 .in2{
     width: 60%;
-    background-color: rgb(0, 68, 255);
+    background-color: rgb(255, 255, 255);
     height: 100%;
     border-radius: 25px;
+    color: black;
 }
 .in3{
     width: 20%;
-    background-color: rgb(206, 223, 52);
+    background-color: rgb(255, 255, 255);
     height: 100%;
     border-radius: 25px;
+    color: black;
 }

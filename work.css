@@ -91,18 +91,12 @@ a:hover{
         .hambarCont ul{
             padding: 0px;
         }
-        .flex-col {
-            margin: 1.6%;
-            height: 400px;
-            width: 5px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            color: white;
-            box-sizing:border-box;
-            border:2px solid white;
-        }  
+         
+
+            
+           
+            
+          
     
     }
 /* =========================================================== TOPMENU AND HAMBURGER =================================================================== */
@@ -116,17 +110,18 @@ h2{
     display: flex;
     /* flex: 1; */
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;    
 }    
 .flex-col {
     margin: 1.6%;
     height: 400px;
+    min-width: 300px;
     width: 30%;
     display: flex;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     color: white;
     box-sizing:border-box;
     border:2px solid white;

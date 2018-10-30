@@ -26,20 +26,32 @@ toggle between hiding and showing the dropdown content */
 var klick = document.querySelector(".rub h1");
 klick.style.color = "white"
 klick.addEventListener("click", function(){
-  
    if(klick.style.color == "white"){
+    klick.classList.remove("klickadd");
     klick.style.color = "blue";
-    console.log("blue");
+    void klick.offsetWidth;
+    klick.classList.add("klickadd");
+
    } 
     else if(klick.style.color == "blue"){
+      klick.classList.remove("klickadd");
       klick.style.color = "green";
-      console.log("green");
+      void klick.offsetWidth;
+      klick.classList.add("klickadd");
+
   } 
   else{
+    klick.classList.remove("klickadd");
     klick.style.color = "white";
-    console.log("white");
-  } 
+    void klick.offsetWidth;
+    klick.classList.add("klickadd");
+  }
   
 });
-  
 
+/* var klickAnim = document.querySelector(".navbar a");
+
+klickAnim.addEventListener("click", function(){
+  klickAnim.classList.add("klickadd");
+});
+ */

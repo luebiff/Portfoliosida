@@ -118,13 +118,40 @@ main{
     width: 500px;
     text-align: center;
     padding: 30px;
+    user-select: none;
+    animation: fadeIn 3s linear;
+}
+@keyframes fadeIn{
+    from {
+        opacity : 0;
+        }
+    to {
+        opacity : 1;
+        }
+}
+@keyframes animate{
+    0%{
+        box-shadow: 0 0 0 0 rgba(64, 76, 90, 0.6);
+    }
+    30%{
+        box-shadow: 0 0 0 50px rgba(30, 34, 39,0);
+    }
+    65%{
+        box-shadow: 0 0 0 50px rgba(30, 34, 39,0);
+    }
+    100%{
+        box-shadow: 0 0 0 0 rgba(30, 34, 39,0);
+    }
 }
 .rub{
     color:white;
     
 }
+.klickadd{
+    animation: animate 2s linear;
+}
 .mainText h1{
-    
+    border-radius: 50%;
     font-size: 70px;
 }
 
