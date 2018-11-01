@@ -100,10 +100,12 @@ h2{
 .aboutInfo {
     color: white;
     width: 50%;
-    /* border: 2px solid white; */
     height: auto;
-    padding: 40px;
-      
+    padding: 40px;     
+}
+.aboutInfo .link{
+    color:rgb(104, 99, 99);
+    text-decoration: underline;
 }
  .flexContainer{
      display: flex;

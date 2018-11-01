@@ -96,8 +96,9 @@ a:hover{
     .show {
         display:block;
     }
-    
-
+    .mainTextContainer{
+        justify-content: center; 
+    }
 }
 /* =========================================================== TOPMENU AND HAMBURGER =================================================================== */
 
@@ -115,7 +116,8 @@ main{
     color:white;
     margin-top: 180px;
     height: auto;
-    width: 500px;
+    /* width: 500px; */
+    width: 30%;
     text-align: center;
     padding: 30px;
     user-select: none;
