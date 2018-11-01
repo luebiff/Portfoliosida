@@ -2,13 +2,12 @@
 toggle between hiding and showing the dropdown content */
  function hambut() {
 //    document.getElementById("myDropdown").classList.toggle("show");
-    console.log("hambut!");
+
 } 
 
 // Close the dropdown menu if the user clicks outside of it
- window.onclick = function(event) {
-  console.log(event.target);
-  if (event.target.matches('i') || event.target.matches('.dropbtn')) {
+ window.onclick = function(event){
+  if(event.target.matches('i') || event.target.matches('.dropbtn')) {
     document.getElementById("myDropdown").classList.toggle("show");
   } 
   else if (!event.target.matches('.dropbtn')  ) {

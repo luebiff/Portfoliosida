@@ -18,7 +18,7 @@ body{
     padding: 30px;
     /* background-color: grey; */
     display: flex;
-    display: row wrap;
+    flex-flow: row wrap;
     align-items: center;
     
 }

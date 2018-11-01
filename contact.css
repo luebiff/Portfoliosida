@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Ubuntu', sans-serif;
     background-color: black;
@@ -7,7 +11,7 @@ body{
     height: 50px;
     /* background-color: grey; */
     display: flex;
-    display: row wrap;
+    flex-flow: row wrap;
     align-items: center;
     
 }
@@ -102,7 +106,7 @@ h2{
     color: white;
     text-align: center;
     font-size: 70px;
-    margin-top: 50px;
+    margin: 50px 0;
 }
 
 .contactInfo{
