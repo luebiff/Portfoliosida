@@ -73,6 +73,9 @@ a:hover{
         z-index: 1;
         
     }
+    .header{
+        padding: 4px 8px;   
+    }
     .dropbtn {
         background-color: rgba(79, 79, 80, 0);
         color: white;
